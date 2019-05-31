@@ -7,20 +7,20 @@ const Form = () => {
                 <div class="fields">
                     <div class="field">
                         <label>To</label>
-                        <input type="email" placeholder="Recipient's Email" />
+                        <input type="email" placeholder="Recipient's Email" required />
                     </div>
                     <div class="field">
                         <label>From</label>
-                        <input type="email" placeholder="Your Email" />
+                        <input type="email" placeholder="Your Email" required />
                     </div>
                 </div>
                 <div class="field">
                     <label>Subject</label>
-                    <input type="text" />
+                    <input type="text" required />
                 </div>
                 <div class="field">
                     <label>Content</label>
-                    <textarea rows="5"></textarea>
+                    <textarea rows="5" required></textarea>
                 </div>
             </div>
         </div>
