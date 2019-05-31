@@ -1,5 +1,7 @@
 import React from 'react';
 
+import 'element-theme-default';
+
 const Form = () => {
     return (
         <div className="ui raised padded text container segment" style={{marginTop: '10%'}}>
@@ -22,6 +24,7 @@ const Form = () => {
                     <label>Content</label>
                     <textarea rows="5" required></textarea>
                 </div>
+                <button class="positive ui button">Submit</button>
             </div>
         </div>
     )
